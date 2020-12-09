@@ -1,0 +1,21 @@
+! version = 2.0
+
++ help
+- clear : Clear your chatbot / ping : See status of the server / randomgif : Display a random gif / help : Display existing commands
+
++ ping
+- Pong !
+
++ randomgif
+- https://media.tenor.com/images/54eb60ffc94ff47e0793265234b66e6d/tenor.gif
+- https://media.tenor.com/images/e6fb361bff98d1b1a641383d4e0dcdcd/tenor.gif
+- https://media.tenor.com/images/3ce15871d3ea6cef022997eb9292f587/tenor.gif
+- https://media.tenor.com/images/140c38d078377465c3538fba9c64aa84/tenor.gif
+- https://media.tenor.com/images/ffd0c1f25297131bb4be6e7e4a40f1d2/tenor.gif
+- https://media.tenor.com/images/7ca245ed23568a93bf9c461e581d7348/tenor.gif
+- https://media.tenor.com/images/4f7197eab9fb65adcfca32c24b5ad9ba/tenor.gif
+- https://media.tenor.com/images/95c6e81c46897478a7d43f1f544024c8/tenor.gif
+- https://media.tenor.com/images/bf5065091df99ff5a52bf6922d1dc2a3/tenor.gif
+
++ *
+- Sorry, I don't understand what you mean... Type "help" to see available commands...

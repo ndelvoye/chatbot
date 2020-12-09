@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: greenyellow;
+    height: 100%;
+}
+
+header {
+    height: 160px;
+}
+
+.chat {
+}
+#messages {
+    height: 400px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#messages, #barre_input {
+    list-style: none;
+}
+
+#barre_input {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+#question_input, #question_input:focus {
+    background-color: black;
+    color: greenyellow;
+    border: 0;
+    outline-width: 0;
+    width: 100%;
+}
