@@ -4,13 +4,13 @@ const express = require('express');
 var RiveScript = require("rivescript");
 
 const PORT = process.env.PORT || 3000;
-const INDEX = '/index.html';
+const Server = '/index.html';
 
 const app = express();
 app.disable("x-powered-by")
 app.use(express.static('public'))
 app.use('/css', express.static(__dirname + '/css'))
-app.use((req, res) => res.sendFile(INDEX, { root: __dirname }))
+app.use((req, res) => res.sendFile(Server, { root: __dirname }))
 const server = app.listen(PORT, () => {
     console.log(`Listening on ${PORT}`)
 });
